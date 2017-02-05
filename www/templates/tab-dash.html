@@ -13,5 +13,14 @@
     <p>
       For help sending push notifications, join the <a href="https://apps.ionic.io/signup" target="_blank">Ionic Platform</a> and check out <a href="http://docs.ionic.io/docs/push-overview" target="_blank">Ionic Push</a>. We also have other services available.
     </p>
+
+    <!--Facebook Login button-->
+    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();" style="width: 80%;">
+    </fb:login-button>
+
+    <div id="status">
+    </div>
+
+
   </ion-content>
 </ion-view>
